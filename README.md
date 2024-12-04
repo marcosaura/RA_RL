@@ -22,7 +22,7 @@ Both models are designed to enhance RL performance in various environments.
 
 ### 1. Exogenous Ring Attractor Model
 
-- Implemented using Spiking Neural Networks (SNNs)
+- Implemented using Continuous-Time Neural Networks (CTRNN)
 - Integrated with Bayesian Deep Q-Networks (BDQN)
 - Includes uncertainty quantification through Bayesian Linear Regression
 

@@ -1,0 +1,6 @@
+numpy==1.19.5
+ray
+gym[atari,roms,accept-rom-license]==0.15.7
+cython==0.29.23
+tensorboard
+kornia==0.6.6

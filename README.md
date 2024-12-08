@@ -53,6 +53,7 @@ RA_RL/
 |   |   └── README.py
 │   └── EfficientZeroRA
 │       ├── RA.py
+|       ├── RA_Double.py
 │       ├── main.py
 |       ├── README.py
 |

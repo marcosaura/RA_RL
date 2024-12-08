@@ -1,4 +1,4 @@
-# Spatial-aware decision-making with Ring Attractors in Reinforcement Learning systems
+# [Spatial-Aware Decision-Making with Ring Attractors in Reinforcement Learning Systems](https://openreview.net/pdf?id=E5ulvtj86q)
 
 This repository contains the implementation of a novel approach to reinforcement learning (RL) that integrates ring attractors into the action selection process. The project aims to improve learning speed and performance, especially in spatially structured tasks.
 
@@ -6,74 +6,60 @@ This repository contains the implementation of a novel approach to reinforcement
 
 Our approach incorporates ring attractors, a mathematical model inspired by neural circuit dynamics, into RL algorithms. We provide two main implementations:
 
-1. Exogenous Ring Attractor Model
-2. Deep Learning Ring Attractor Model
+1. Exogenous Ring Attractor Model (CTRNN-based)
+2. Deep Learning Ring Attractor Model (DL-RNN-based)
 
 Both models are designed to enhance RL performance in various environments.
 
-## Key Features
-
-- Integration of ring attractors into RL action selection
-- Uncertainty-aware decision making
-- Adaptable to various RL tasks and environments
-- Improved spatial awareness in action selection
-
-## Main Components
-
-### 1. Exogenous Ring Attractor Model
-
-- Implemented using Continuous-Time Neural Networks (CTRNN)
-- Integrated with Bayesian Deep Q-Networks (BDQN)
-- Includes uncertainty quantification through Bayesian Linear Regression
-
-### 2. Deep Learning Ring Attractor Model
-
-- Implemented using Recurrent Neural Networks (RNNs)
-- Easily integrable with existing Deep RL architectures
-- Provides end-to-end training capabilities
-
-## Project Structure
-
-```
-ring-attractor-rl/
-│
-├── exogenous_model/
-│   ├── snn_implementation.py
-│   ├── bdqn_integration.py
-│   └── uncertainty_quantification.py
-│
-├── deep_learning_model/
-│   ├── rnn_implementation.py
-│   └── rl_integration.py
-│
-├── utils/
-│   ├── data_processing.py
-│   └── visualization.py
-│
-├── experiments/
-│   ├── atari_benchmark.py
-│   └── custom_environments.py
-│
-├── tests/
-│   ├── test_exogenous_model.py
-│   └── test_deep_learning_model.py
-│
-├── requirements.txt
-├── setup.py
-└── README.md
-```
+Each implementation folder contains a file named`RA.py` that provides the implementation details for the ring attractor component in isolation. These files can be easily reused and integrated into other research projects or implementations.
+Researchers and developers interested in leveraging the ring attractor component for their own work can find the necessary code and explanations in the respective RA.py files. They can also follow the implementation examples to understand how to integrate the ring attractor module into an RL agent.
 
 ## Installation
 
 To install the required dependencies, run:
 
-```
+```bash
 pip install -r requirements.txt
+```
+Alternatively you can run setup.py by:
+
+```bash
+pip install .
 ```
 
 ## Usage
 
-(Placeholder for usage instructions and examples)
+Instructions on how to run each implementation can be found in the respective implementations:
+
+- For the Exogenous Ring Attractor Model, refer to the README in the `CTRNN` folder.
+- For the Deep Learning Ring Attractor Model, refer to the README in the `DL-RNN` folder.
+
+Each folder contains specific instructions, examples, and any additional setup required for running the models.
+
+## Project Structure
+
+```
+RA_RL/
+│
+├── CTRNN
+│   └── BDQNRA
+│       ├── BDQNRA.py
+│       └── RA.py
+        └── README.py
+├── DL-RNN
+│   ├── DDQNRA
+│   │   ├── DDQN.py
+│   │   └── RA.py
+|   |   └── README.py
+│   └── EfficientZeroRA
+│       ├── RA.py
+│       ├── main.py
+|       ├── README.py
+|
+├── requirements.txt
+├── setup.py
+└── README.md
+```
 
 ## Contributing
 
@@ -87,7 +73,14 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 If you use this code in your research, please cite our paper:
 
-(Placeholder for citation information)
+```bibtex
+@article{ring-attractor-rl-2025,
+  title={Spatial-Aware Decision-Making with Ring Attractors in Reinforcement Learning Systems},
+  author={Anonymous},
+  journal={Under Review},
+  year={2024}
+}
+```
 
 ## Contact
 

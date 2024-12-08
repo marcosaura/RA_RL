@@ -25,6 +25,6 @@ The script will train the agent using the BDQN algorithm with the exogenous ring
 
 ## References
 
-[1] [Azizzadenesheli, K., & Anandkumar, A. (2018). Efficient Exploration through Bayesian Deep Q-Networks. In International Conference on Learning Representations (ICLR).] (https://arxiv.org/abs/1802.04412)
+[1] [Azizzadenesheli, K., & Anandkumar, A. (2018). Efficient Exploration through Bayesian Deep Q-Networks. In International Conference on Learning Representations (ICLR).](https://arxiv.org/abs/1802.04412)
 
-[2] [Kauten, C. (2018). Super Mario Bros for OpenAI Gym. GitHub repository.] (https://github.com/Kautenja/gym-super-mario-bros)
+[2] [Kauten, C. (2018). Super Mario Bros for OpenAI Gym. GitHub repository.](https://github.com/Kautenja/gym-super-mario-bros)

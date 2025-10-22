@@ -75,10 +75,10 @@ This project is licensed under the MIT License. See [MIT License](https://openso
 If you use this code in your research, please cite our paper:
 
 ```bibtex
-@article{ring-attractor-rl-2025,
+@inproceedings{negre2025spatial,
   title={Spatial-Aware Decision-Making with Ring Attractors in Reinforcement Learning Systems},
-  author={Anonymous},
-  journal={Under Review},
+  author={Negre Saura, Marcos and Allmendinger, Richard and Pan, Wei and Papamarkou, Theodore},
+  booktitle={NeurIPS},
   year={2025}
 }
 ```

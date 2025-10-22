@@ -72,7 +72,7 @@ This project is licensed under the MIT License. See [MIT License](https://openso
 
 ## Citation
 
-If you use this code in your research, please cite our paper:
+If you use this code in your research, please cite our article:
 
 ```bibtex
 @inproceedings{negre2025spatial,

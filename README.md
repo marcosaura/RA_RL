@@ -68,7 +68,7 @@ We welcome contributions to this project. Please feel free to submit pull reques
 
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See [MIT License](https://opensource.org/licenses/MIT) for details.
 
 ## Citation
 
@@ -79,7 +79,7 @@ If you use this code in your research, please cite our paper:
   title={Spatial-Aware Decision-Making with Ring Attractors in Reinforcement Learning Systems},
   author={Anonymous},
   journal={Under Review},
-  year={2024}
+  year={2025}
 }
 ```
 

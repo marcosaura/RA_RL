@@ -78,7 +78,8 @@ If you use this code in your research, please cite our paper:
 @inproceedings{negre2025spatial,
   title={Spatial-Aware Decision-Making with Ring Attractors in Reinforcement Learning Systems},
   author={Negre Saura, Marcos and Allmendinger, Richard and Pan, Wei and Papamarkou, Theodore},
-  booktitle={NeurIPS},
+  booktitle={Advances in Neural Information Processing Systems},
+  volume={38},
   year={2025}
 }
 ```

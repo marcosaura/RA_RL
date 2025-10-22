@@ -1,4 +1,4 @@
-# [Spatial-Aware Decision-Making with Ring Attractors in Reinforcement Learning Systems](https://openreview.net/pdf?id=E5ulvtj86q)
+# [Spatial-Aware Decision-Making with Ring Attractors in Reinforcement Learning Systems](https://arxiv.org/abs/2410.03119)
 
 This repository contains the implementation of a novel approach to reinforcement learning (RL) that integrates ring attractors into the action selection process. The project aims to improve learning speed and performance, especially in spatially structured tasks.
 
